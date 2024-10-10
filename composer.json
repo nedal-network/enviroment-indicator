@@ -1,0 +1,26 @@
+{
+    "name": "nedal-network/enviroment-indicator",
+    "description": "Fejlesztői környezet kijelző",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^8.0|^9.0|^10.0|^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "NedalNetwork\\EnviromentIndicator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yrpn",
+            "email": "jeklarpad@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NedalNetwork\\EnviromentIndicator\\EnviromentIndicatorServiceProvider"
+            ]
+        }
+    }
+}
